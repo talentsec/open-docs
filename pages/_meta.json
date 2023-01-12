@@ -1,19 +1,26 @@
 {
-  "index": "首页",
-  "contact": "Contact Us",
-  "about": "About Us",
-  "markdown": "Markdown",
-  "company": {
+  "index": {
+    "title": "Nextra",
+    "type": "page",
+    "display": "hidden"
+  },
+  "docs": {
+    "title": "文档",
+    "type": "page"
+  },
+  "links": {
     "title": "链接",
     "type": "menu",
     "items": {
       "website": {
         "title": "官网",
-        "href": "https://www.talentsec.cn"
+        "href": "https://www.talentsec.cn",
+        "newWindow": true
       },
       "asm-community": {
-        "title": "asm指纹社区",
-        "href": "https://www.cc.cc"
+        "title": "ASM指纹社区",
+        "href": "https://www.cc.cc",
+        "newWindow": true
       }
     }
   }
