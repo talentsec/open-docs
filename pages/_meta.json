@@ -1,0 +1,20 @@
+{
+  "index": "首页",
+  "contact": "Contact Us",
+  "about": "About Us",
+  "markdown": "Markdown",
+  "company": {
+    "title": "链接",
+    "type": "menu",
+    "items": {
+      "website": {
+        "title": "官网",
+        "href": "https://www.talentsec.cn"
+      },
+      "asm-community": {
+        "title": "asm指纹社区",
+        "href": "https://www.cc.cc"
+      }
+    }
+  }
+}
