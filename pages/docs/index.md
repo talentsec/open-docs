@@ -1,5 +1,5 @@
-# markdown test
+# Get Started
 
-文档中心
+开始
 
 !['测试图片'](/assets/card-1.png)

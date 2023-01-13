@@ -1,9 +1,9 @@
 {
-  "index": "文档中心",
+  "index": "开始",
   "---": {
     "type": "separator"
   },
+  "community": "潮汐指纹社区",
   "ASM": "ASM",
-  "BAS": "BAS",
-  "about": "关于"
+  "BAS": "BAS"
 }
