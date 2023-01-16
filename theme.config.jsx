@@ -1,10 +1,7 @@
 import React, { Fragment } from 'react'
 
 export default {
-  logo: <span>Talentsec 公开文档</span>,
-  project: {
-    link: 'https://github.com/shuding/nextra',
-  },
+  logo: <span>Talentsec 开放文档</span>,
   toc: {
     extraContent: <Fragment />,
   },
@@ -19,7 +16,7 @@ export default {
   footer: {
     text: (
       <span>
-        MIT {new Date().getFullYear()} ©{' '}
+        {new Date().getFullYear()} ©{' '}
         <a href='https://talentsec.cn' target='_blank'>
           TalentSec
         </a>
