@@ -1,13 +1,19 @@
 import React, { Fragment } from 'react'
 
 export default {
-  logo: <span>Talentsec 开放文档</span>,
+  // logo: <span>指纹社区平台</span>,
+  logo: (
+    <>
+      <img src='/assets/logo.svg' />
+      <span style={{ marginLeft: '.4em', fontWeight: 800 }}>指纹社区平台</span>
+    </>
+  ),
   toc: {
     extraContent: <Fragment />,
   },
   useNextSeoProps() {
     return {
-      titleTemplate: '%s – TalenctSec',
+      titleTemplate: '%s – TalentSec',
     }
   },
   footer: {
@@ -20,6 +26,22 @@ export default {
         .
       </span>
     ),
+  },
+  sidebar: {
+    titleComponent({ title, type }) {
+      if (type === 'separator') {
+        return <span className='cursor-default'>{title}</span>
+      }
+      return <>{title}</>
+    },
+    defaultMenuCollapseLevel: 2,
+    toggleButton: true,
+  },
+  editLink: {
+    text: '',
+  },
+  feedback: {
+    content: '',
   },
   docsRepositoryBase: 'https://github.com/talentsec/open-doc/tree/main',
 }
