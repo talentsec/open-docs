@@ -1,3 +1,4 @@
+![logo](https://user-images.githubusercontent.com/20656708/212898420-42c8989b-0cd7-4a01-bc9f-b26b76313f89.svg)
 ## 说明
 
 该文档使用 next.js 和 [nextra](https://nextra.site/docs) 构建。文档新内容提交至该仓库 main 分支后，会自动触发 github actions 构建并部署到 github pages。
