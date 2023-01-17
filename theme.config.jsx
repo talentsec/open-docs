@@ -4,7 +4,10 @@ export default {
   // logo: <span>指纹社区平台</span>,
   logo: (
     <>
-      <img src='/assets/logo.svg' />
+      <img
+        src='https://user-images.githubusercontent.com/20656708/212898420-42c8989b-0cd7-4a01-bc9f-b26b76313f89.svg'
+        alt='logo'
+      />
       <span style={{ marginLeft: '.4em', fontWeight: 800 }}>指纹社区平台</span>
     </>
   ),
