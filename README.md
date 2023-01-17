@@ -8,7 +8,7 @@
 
 所有文档存放在`pages`目录中，目录可多层嵌套。
 
-每层目录下有一个`_meta.json`文件用于组织和配置该层目录下的文档， 在 pages 根目录下的 `_meta.json` 主要用于配置页面和导航栏。其他多层目录下用于具体页面下左侧边栏文档目录组织。
+每层目录下有一个`_meta.json`文件用于组织和配置该层目录下的文档， 在 pages 根目录下的 `_meta.json` 主要用于配置页面和导航栏。其他深层目录下的`_meta.json`用于具体页面下左侧边栏目录的组织。
 
 具体可以参考： https://nextra.site/docs/docs-theme/page-configuration
 
