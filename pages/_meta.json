@@ -1,27 +1,11 @@
 {
   "index": {
-    "title": "Nextra",
+    "title": "首页",
     "type": "page",
     "display": "hidden"
   },
   "docs": {
     "title": "文档",
     "type": "page"
-  },
-  "links": {
-    "title": "链接",
-    "type": "menu",
-    "items": {
-      "website": {
-        "title": "官网",
-        "href": "https://www.talentsec.cn",
-        "newWindow": true
-      },
-      "asm-community": {
-        "title": "ASM指纹社区",
-        "href": "https://www.cc.cc",
-        "newWindow": true
-      }
-    }
   }
 }

@@ -10,9 +10,6 @@ export default {
       titleTemplate: '%s – TalenctSec',
     }
   },
-  project: {
-    link: 'https://github.com/talentsec/open-docs',
-  },
   footer: {
     text: (
       <span>
